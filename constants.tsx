@@ -30,7 +30,7 @@ export const SERVICES: Service[] = [
     description: 'Aparelhos modernos para alinhar seu sorriso com eficiência.',
     fullDescription: 'Tratamentos ortodônticos completos para crianças e adultos. Trabalhamos com aparelhos fixos metálicos, estéticos (safira/porcelana) e alinhadores invisíveis para garantir o melhor resultado estético e funcional.',
     icon: <Smile size={28} />,
-    imageUrl: 'https://images.unsplash.com/photo-1598256989494-02630f6dc069?q=80&w=800&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1572295727871-7638149ea3d7?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: '2',
@@ -46,7 +46,7 @@ export const SERVICES: Service[] = [
     description: 'Recupere sua autoestima e a função mastigatória.',
     fullDescription: 'Soluções definitivas para a perda de dentes. Nossos implantes são feitos com materiais biocompatíveis de alta qualidade, garantindo durabilidade, conforto e um aspecto extremamente natural.',
     icon: <ShieldCheck size={28} />,
-    imageUrl: 'https://images.unsplash.com/photo-1628348070889-cb656235b4eb?q=80&w=800&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1445582305881-22442475475c?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: '4',
@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
     description: 'Prevenção, limpeza e restaurações para sua saúde bucal.',
     fullDescription: 'Check-up completo, profilaxia (limpeza), aplicação de flúor e restaurações. O cuidado básico essencial para manter seus dentes e gengivas saudáveis e prevenir doenças bucais.',
     icon: <Stethoscope size={28} />,
-    imageUrl: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?q=80&w=800&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1598256989494-02630f6dc069?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: '5',
@@ -62,7 +62,7 @@ export const SERVICES: Service[] = [
     description: 'Reabilitação oral com conforto e qualidade.',
     fullDescription: 'Próteses fixas e removíveis desenhadas para se adaptar perfeitamente à sua boca. Devolvemos a estética do sorriso e a eficiência da mastigação com peças personalizadas.',
     icon: <User size={28} />,
-    imageUrl: 'https://images.unsplash.com/photo-1473280025148-b43e9ca08642?q=80&w=800&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?q=80&w=800&auto=format&fit=crop'
   },
   {
     id: '6',
@@ -70,7 +70,7 @@ export const SERVICES: Service[] = [
     description: 'Cuidado especial para o sorriso dos pequenos.',
     fullDescription: 'Atendimento lúdico e especializado para crianças. Acompanhamos o desenvolvimento da dentição desde os primeiros anos, focando na prevenção e na criação de bons hábitos de higiene.',
     icon: <CalendarCheck size={28} />,
-    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf4722e12?q=80&w=800&auto=format&fit=crop'
+    imageUrl: 'https://images.unsplash.com/photo-1609840112855-9c84e76d0d21?q=80&w=800&auto=format&fit=crop'
   }
 ];
 

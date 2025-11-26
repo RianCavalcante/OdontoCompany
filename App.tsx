@@ -197,36 +197,26 @@ function App() {
               <div 
                 key={service.id}
                 onClick={() => setSelectedService(service)}
-                className="group rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all cursor-pointer hover:-translate-y-1 relative overflow-hidden flex flex-col h-full"
+                className="group rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all cursor-pointer hover:-translate-y-1 p-8 flex flex-col h-full relative overflow-hidden"
               >
-                {/* Imagem do Serviço */}
-                <div className="h-48 w-full overflow-hidden relative bg-gray-100">
-                  <img 
-                    src={service.imageUrl} 
-                    alt={service.title} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors"></div>
-                </div>
+                {/* Background Decoration */}
+                <div className="absolute top-0 right-0 w-32 h-32 bg-green-50 rounded-bl-full -mr-16 -mt-16 transition-transform group-hover:scale-110"></div>
 
-                {/* Conteúdo do Card */}
-                <div className="p-6 flex flex-col flex-grow relative">
-                  {/* Ícone Flutuante */}
-                  <div className="absolute -top-8 left-6 p-3 rounded-xl bg-white shadow-md text-[#02B53D]">
+                <div className="relative">
+                  <div className="w-16 h-16 rounded-xl bg-green-50 text-[#02B53D] flex items-center justify-center mb-6 group-hover:bg-[#02B53D] group-hover:text-white transition-colors">
                     {service.icon}
                   </div>
 
-                  <div className="mt-4">
-                    <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#02B53D] transition-colors">
-                      {service.title}
-                    </h3>
-                    <p className="text-gray-500 text-sm leading-relaxed mb-4">
-                      {service.description}
-                    </p>
-                    <div className="mt-auto pt-4 flex items-center text-[#02B53D] font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">
-                      Saiba mais <ArrowRight size={16} className="ml-1" />
-                    </div>
-                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#02B53D] transition-colors">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-6">
+                    {service.description}
+                  </p>
+                </div>
+                
+                <div className="mt-auto pt-4 flex items-center text-[#02B53D] font-medium text-sm group-hover:translate-x-1 transition-transform">
+                  Saiba mais <ArrowRight size={16} className="ml-1" />
                 </div>
               </div>
             ))}
