@@ -26,7 +26,7 @@ const ServiceModal: React.FC<Props> = ({ service, isOpen, onClose }) => {
         {/* Header (No Image) */}
         <div className="bg-gray-50 p-6 pr-12 border-b border-gray-100 flex items-center gap-4">
             <div className="p-3 bg-white rounded-xl shadow-sm text-[#02B53D]">
-                 {React.cloneElement(service.icon as React.ReactElement, { size: 28 })}
+                 {React.cloneElement(service.icon as React.ReactElement<any>, { size: 28 })}
             </div>
             <div>
                  <h3 className="text-2xl font-bold text-gray-900">{service.title}</h3>
